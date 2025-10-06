@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background: red;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
