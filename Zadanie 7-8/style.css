@@ -1,0 +1,19 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.kolumna1
+{
+float: left;
+width: 30%;
+margin: 1.5%;
+background-color: lightblue;
+padding: 20px;
+border: 2px solid;
+}
+
+.clearfix {
+    clear: both;
+}
