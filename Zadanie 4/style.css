@@ -2,17 +2,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 20px;
 }
-/* Kontener wokół obu kolumn */
+
 .columns-box {
   border: 3px dotted #999;
   border-radius: 10px;
-  /* zapewnia, że wysokość opakowania uwzględni floaty */
   overflow: hidden;
   background: #fff;
 }
-
-/* Nagłówki i akapity w kolumnach - przywrócone domyślne marginesy */
-/* Brak dodatkowych reguł margin — używamy domyślnych odstępów nagłówków i akapitów */
 
 /* Lewa kolumna */
 .lewy {
@@ -34,7 +30,6 @@ body {
   border-radius: 8px;
 }
 
-/* Stopka powinna czyścić floaty */
 footer {
   clear: both;
   background-color: #ddd;
@@ -43,8 +38,7 @@ footer {
   margin-top: 16px;
 }
 
-/* Podnieś nieco akapity z opisem float w kolumnach */
 .columns-box .lewy p,
 .columns-box .prawy p {
-  margin-top: -15px; /* minimalne podniesienie - dostosuj jeśli trzeba */
+  margin-top: -15px;
 }

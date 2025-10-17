@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+
+.main {
+  padding: 20px;
+  width: 65%;
+  background: rgb(165, 163, 163);
+  min-height: 300px;
+  float: left;
+  min-height: 200px;
+  margin: 10px;
+}
+
+.aside {
+  padding: 20px;
+  width: 32%;
+  background: grey;
+  min-height: 300px;
+  float: right;
+  min-height: 200px;
+  margin: 10px;
+}
+
+.footer {
+  padding: 20px;
+  clear: both;
+  background: #2e4050;
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+}
