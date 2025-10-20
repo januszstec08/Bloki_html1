@@ -1,0 +1,12 @@
+.wpis {
+  float: left;
+  width: 48%;
+  margin: 1%;
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.clearfix {
+    clear: both;
+}
