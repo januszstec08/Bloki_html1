@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.blok {
+    float: left;
+    width: 48%;
+    margin: 1%;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(19, 153, 231);
+}
+
+.clearfix {
+    clear: both;
+}

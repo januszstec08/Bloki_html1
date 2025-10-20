@@ -24,8 +24,8 @@ nav ul {
 }
 
 nav li {
-    margin: 0 15px;
-    min-height: 50 px;
+    margin: 5px 15px;
+    min-height: 20px;
 }
 
 nav a {
@@ -42,9 +42,10 @@ main {
     float: left;
     width: 70%;
     background-color: white;
-    padding: 33px;
+    padding: 20px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    min-height: 500px;
 }
 
 aside {
@@ -54,6 +55,7 @@ aside {
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    min-height: 500px;
 }
 
 footer {
@@ -62,4 +64,17 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
+}
+
+.wpis {
+  float: left;
+  width: 48%;
+  margin: 1%;
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.clearfix {
+    clear: both;
 }
