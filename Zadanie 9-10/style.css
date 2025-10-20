@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -45,7 +50,7 @@ main {
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 20px;
-    min-height: 500px;
+    min-height: 200px;
 }
 
 aside {
@@ -55,8 +60,12 @@ aside {
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 20px;
-    min-height: 500px;
+    min-height: 200px;
 }
+aside li {
+    padding: 3px;
+}
+    
 
 footer {
     clear: both;
